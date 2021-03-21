@@ -9,6 +9,4 @@ spring:
 
   data:
     mongodb:
-      host: localhost
-      port: 27017
-      datasource: insurance
+      uri: mongodb://localhost:27017/insurance
